@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>My To-Do List</h2>
+
+  <!-- FILTERS WITH COUNTERS -->
+  <div class="filters">
+    <button onclick="setFilter('all')">All (<span id="allCount">0</span>)</button>
+    <button onclick="setFilter('active')">Active (<span id="activeCount">0</span>)</button>
+    <button onclick="setFilter('completed')">Completed (<span id="completedCount">0</span>)</button>
+  </div>
+
+  <!-- INPUT -->
+  <input type="text" id="taskInput" placeholder="Enter task">
+  <button onclick="addTask()">Add</button>
+
+  <!-- TASK LIST -->
+  <ul id="taskList"></ul>
+
+  <!-- CLEAR BUTTON -->
+  <button class="clear-btn" onclick="clearTasks()">Clear All</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
