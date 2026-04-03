@@ -1,0 +1,66 @@
+/* BODY & CONTAINER */
+body {
+  font-family: Arial;
+  background: #2563eb; /* BLUE BACKGROUND */
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container {
+  background: white; /* WHITE CONTAINER */
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+}
+
+/* HEADING */
+h2 {
+  text-align: center;
+}
+
+/* FILTERS */
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.filters button {
+  padding: 6px;
+  cursor: pointer;
+}
+
+/* INPUT & BUTTONS */
+input {
+  width: 65%;
+  padding: 8px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* TASK LIST */
+li {
+  background: #e5e7eb;
+  margin: 5px 0;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* CLEAR BUTTON */
+.clear-btn {
+  margin-top: 10px;
+  width: 100%;
+  background: red;
+  color: white;
+}
